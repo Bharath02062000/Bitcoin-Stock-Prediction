@@ -23,6 +23,5 @@ print(data_Frame.head)
 
 # Fetch the row and  column count of data frames
 print(data_Frame.shape)
-
 # fetch the bottom layer of data frame
 print(data_Frame.tail)
