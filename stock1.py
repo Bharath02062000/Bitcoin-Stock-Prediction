@@ -13,7 +13,6 @@ plt.style.use('fivethirtyeight')
 data_Frame = DataReaderWeb.DataReader('AAPL', data_source='yahoo', start='2011-01-01', end='2019-12-17')
 #Show the data
 print(data_Frame)
-
 # making boolean series for a team name 
 new_df = data_Frame[(data_Frame.High>14)]
 print(new_df)
